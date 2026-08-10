@@ -1,0 +1,6 @@
+Proprietary License
+
+Copyright (c) 2026 Esthetics Solutions. All rights reserved.
+
+This software and associated documentation files are proprietary to Esthetics Solutions.
+Unlicensed copying, distribution, or modification of this file, via any medium, is strictly prohibited.
