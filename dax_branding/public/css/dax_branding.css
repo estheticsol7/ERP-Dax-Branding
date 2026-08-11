@@ -1,0 +1,18 @@
+.splash img {
+	content: url('/assets/dax_branding/dax-flash-logo.png') !important;
+	max-width: 150px !important;
+	max-height: 150px !important;
+}
+
+/* Custom Navbar Background Color (Uncomment and edit to use) */
+
+/* .navbar {
+	background-color: #3b82f6 !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .dropdown-toggle {
+	color: #ffffff !important;
+} */
+

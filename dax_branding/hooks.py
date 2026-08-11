@@ -25,12 +25,12 @@ app_license = "Proprietary"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/dax_branding/css/dax_branding.css"
-# app_include_js = "/assets/dax_branding/js/dax_branding.js"
+app_include_css = "/assets/dax_branding/css/dax_branding.css"
+app_include_js = "/assets/dax_branding/js/dax_branding.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/dax_branding/css/dax_branding.css"
-# web_include_js = "/assets/dax_branding/js/dax_branding.js"
+web_include_css = "/assets/dax_branding/css/dax_branding.css"
+web_include_js = "/assets/dax_branding/js/dax_branding.js"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "dax_branding/public/scss/website"
