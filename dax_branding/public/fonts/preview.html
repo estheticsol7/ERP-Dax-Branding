@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>DAX Fonts Preview</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    @font-face { font-family: 'Inter'; src: url('Inter-Variable.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; }
+    @font-face { font-family: 'Manrope'; src: url('Manrope-Variable.woff2') format('woff2'); font-weight: 200 800; font-style: normal; font-display: swap; }
+    @font-face { font-family: 'JetBrains Mono'; src: url('JetBrainsMono-Variable.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; }
+
+    body { font-family: 'Manrope', 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; padding: 32px; color: #111; }
+    h1 { font-family: 'Inter'; font-size: 48px; margin: 0 0 8px 0; }
+    h2 { font-family: 'Manrope'; font-size: 28px; margin: 24px 0 8px 0; }
+    p { font-size: 18px; line-height: 1.4; }
+    .code { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, monospace; background:#f6f8fa; padding:12px; border-radius:6px; display:block; width:100%; }
+    .sample { margin: 12px 0; }
+  </style>
+</head>
+<body>
+  <h1>Inter — The quick brown fox</h1>
+  <p class="sample">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br/>abcdefghijklmnopqrstuvwxyz<br/>0123456789</p>
+
+  <h2>Manrope — Headline</h2>
+  <p class="sample">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+
+  <h2>JetBrains Mono — Code</h2>
+  <pre class="code">def hello_world():
+    print("Hello, DAX fonts!")
+  </pre>
+
+  <p style="margin-top:24px; color:#666; font-size:14px;">Notes: Place WOFF2 files in this directory:<br/>
+    <strong>Inter-Variable.woff2</strong>, <strong>Manrope-Variable.woff2</strong>, <strong>JetBrainsMono-Variable.woff2</strong>
+  </p>
+</body>
+</html>

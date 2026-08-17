@@ -4,9 +4,12 @@
 	max-height: 150px !important;
 }
 
+/* Import overrides (fonts, additional rules) */
+@import url('/assets/dax_branding/css/dax_overrides.css');
+
 /* Custom Navbar Background Color (Uncomment and edit to use) */
 
-/* .navbar {
+.navbar {
 	background-color: #3b82f6 !important;
 }
 
@@ -14,5 +17,5 @@
 .navbar .nav-link,
 .navbar .dropdown-toggle {
 	color: #ffffff !important;
-} */
+}
 

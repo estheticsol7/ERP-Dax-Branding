@@ -21,11 +21,14 @@ app_license = "Proprietary"
 # 	}
 # ]
 
-# Includes in <head>
+# Includes in <head> 
 # ------------------
 
 # include js, css files in header of desk.html
-app_include_css = "/assets/dax_branding/css/dax_branding.css"
+app_include_css = [
+	"/assets/dax_branding/css/dax_branding.css",
+	"/assets/dax_branding/css/dax_overrides.css",
+]
 app_include_js = "/assets/dax_branding/js/dax_branding.js"
 
 # include js, css files in header of web template
