@@ -1,0 +1,51 @@
+/* DAX overrides: fonts + Desk CSS variables
+   Place web font files in /assets/dax_branding/fonts/ (public/fonts/) with the
+   filenames referenced below (prefer .woff2). */
+
+/* Desk (admin UI) CSS variable overrides - adjust primary colors here */
+:root {
+  --primary-color: #9B50F1;
+  --primary: #9B50F1;
+  --navbar-bg: #85AA0C;
+}
+
+/* Inter - variable/regular */
+@font-face {
+  font-family: 'Inter';
+  src: url('/assets/dax_branding/fonts/Inter-Variable.woff2') format('woff2'),
+       url('/assets/dax_branding/fonts/Inter-Regular.woff') format('woff');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Manrope - variable/regular */
+@font-face {
+  font-family: 'Manrope';
+  src: url('/assets/dax_branding/fonts/Manrope-Variable.woff2') format('woff2'),
+       url('/assets/dax_branding/fonts/Manrope-Regular.woff') format('woff');
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* JetBrains Mono - for code */
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/assets/dax_branding/fonts/JetBrainsMono-Variable.woff2') format('woff2'),
+       url('/assets/dax_branding/fonts/JetBrainsMono-Regular.woff') format('woff');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Optional: sensible defaults for body and code elements */
+body {
+  font-family: 'Manrope', 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+code, pre, kbd, samp {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', monospace;
+}
+
+/* End of overrides */
